@@ -1,0 +1,258 @@
+
+/* .nav1{
+    background-color: rgb(20, 61, 54);
+    color: white;
+    
+}
+.follow{
+    float: left;
+    margin-left: 300px;
+    color:rgb(253, 253, 253);
+}
+.icons{
+    color: #f8532e;
+    font-size: 20px;
+    margin-left: 50px;
+    
+}
+.icons a{
+    text-decoration: none;
+    color:#db4726;
+
+}
+.icons ion-icon{
+    color:#db4726;
+    font-size:30px;
+    
+    padding-left:50px;
+    padding-top:20px;
+    transition:.3s ease;
+}
+.icons ion-icon:hover{
+    color:#db4726;
+
+} */
+.logo{
+    display: flex;
+    background-color: #d64839;
+}
+h1{
+    
+    color: white;
+    font-size: 39px;
+    font-family:cursive;
+    margin: 0%;
+    text-shadow: 0 0 20px black ;
+    text-decoration-line: none;
+    
+    
+}
+
+.menu{
+    background-color: rgba(0,0,0,0.8);
+}
+li{
+    font-size: 19px;
+    border: white;
+    
+}
+a{
+    text-decoration: none;
+    border-right: #db4726;
+    
+}
+ul{
+    display: flex;
+    float: bottom;
+    justify-content:center;
+    align-items:center;
+    margin-left: 170px;
+    margin-top: 0%;
+}
+ul li{
+    list-style:none;
+    margin-left:0px;
+    text-align: center;
+  
+    padding-bottom:10px ;
+    padding-top: 10px;
+    font-size:18px;       
+    border: #db4726;
+    width: 200px;
+
+}
+ul li:hover{
+    background-color: #b94a3e;
+    color: black;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family:arial;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    border: white;
+    letter-spacing: 1px;
+    
+
+}
+ul li a:hover{
+    color:black;
+  
+}
+img{
+    float: left;
+    margin: 0;
+    width: 580px;
+    height: 520px;
+    
+}
+.donation{
+    border: #db4726 solid 7px;
+    margin-right: 60px;
+    margin-left: 60px;
+    height: 520px;
+    margin-bottom: 50px;
+}
+.sidenav a:focus{
+    background-color: #b94a3e;
+}
+
+
+h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #db4726;
+    margin-top: 100px;
+    margin-left:500px;
+}
+fieldset{
+   
+   margin-left: 500px;
+   margin-right: 0;
+   margin-top: 0;
+    /* border-color: #d4584a; */
+   
+    
+    background-color: rgb(253, 253, 253);
+    color: rgb(20, 61, 54);
+    font-size: 20px;
+    padding: 50px;
+    letter-spacing: 2px;
+    border-style: none;
+}
+#firstname,#lastname,#email,#Password{
+    margin:20px ;
+    width: 400px;
+    height:30px;
+    margin-bottom: 20px;
+    background:transparent;
+    border-bottom:1px solid #db4726;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    font-size: 18px;
+    padding-left: 30px;
+    font-family: cursive;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+
+}
+.donatetype{
+    
+    
+    margin-right: 60px;
+}
+.num{
+    margin-top:55px;
+}
+P{
+    color: #db4726;
+    font-size: 25PX;
+}
+.personal,.donateinfo{
+    color:#db4726;
+    font-size: 28px;
+    text-align:left;
+    padding-top:0;
+    font-weight: bold;
+    font-family: cursive;
+}
+.do{
+    position :relative;
+    left: 80px;
+}
+.submit{
+    background-color: #f8532e;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left:  90px;
+    margin-top: 50px;
+    border: none;
+
+    
+}
+.submit:hover{
+    background:#db4726;
+    color:white;
+}
+#city,#gender,#number,#type{
+    width: 200px;
+    border:2px solid #db4726;
+    border-top: 1px solid rgb(206, 206, 206);
+    border-left: 1px solid rgb(206, 206, 206);
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 12px;
+    
+   
+    
+}
+.City,.address,.Gender,.Type,.Number{
+    font-size: 20px;
+    color:#223544;
+    margin-left: 20px;
+    font-family: cursive;
+}
+label{
+    font-size: 22px;
+}
+textarea{
+    border-style: none;
+    color: black;
+   
+    width: 400px;
+    height: 40px;
+    margin: 20px;
+    border: #db4726 solid 2px;
+    border-top: 1px solid rgb(206, 206, 206);
+    border-right: 1px solid rgb(206, 206, 206);
+    border-left: none;
+    border-radius: 5px;
+    font-size: 19px;
+    resize: none;
+
+}
+.sign{
+    padding-left: 60px;
+    font-size: 17px;
+    font-family: cursive;
+    color: #223544;
+    margin-bottom: 40px;
+}
+.sign a{
+    text-decoration: none;
+    color: #db4726;
+    word-spacing: 3px;
+    font-weight: bold;
+}
+
+
+
+
+
+
